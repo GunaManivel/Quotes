@@ -3,12 +3,12 @@
 }
 
 body {
-    background-image: url("http://inspiquotes.com/img/quotes/using-one-word.jpg");
+    background-image: url('./images/peakpx.jpg');
 
     background-size: cover;
     padding-top: 10%;
     padding-left: 20%;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #p1 {
