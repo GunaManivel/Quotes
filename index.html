@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes-generator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Include Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="./quote_5572.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div
+      class="container col-2 d-flex justify-content-center align-items-center flex-column"
+    >
+      <div class="row mt-5 quote"></div>
+      <div
+        class="quotebtn mt-5 d-flex justify-content-between align-items-center"
+      >
+        <button class="btn btn-primary" onclick="fetchQuote()">
+          Get Quote
+        </button>
+        <button
+          class="btn btn-outline-secondary btn-lg ms-3"
+          onclick="copyQuote()"
+        >
+          <i class="fas fa-copy"></i>
+        </button>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
